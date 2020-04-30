@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Ramdumgeon 2 Game.unity
+- path: Assets/Randumgeon 2 Rooms.unity
   isLoaded: 1
   isActive: 1
