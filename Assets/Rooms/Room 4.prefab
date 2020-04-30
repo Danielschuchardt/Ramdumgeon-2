@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 315151545}
   - component: {fileID: 315151544}
   - component: {fileID: 1661713303998299161}
+  - component: {fileID: 1455728583}
   m_Layer: 0
   m_Name: SM_Env_Wall_07
   m_TagString: Untagged
@@ -211,6 +212,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1455728583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315151542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 511043735}
 --- !u!1 &320669254
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +607,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 8153ff91c8b7c6c4ca02b27c13ec43df, type: 3}
+--- !u!1 &511043734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 511043735}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &511043735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 511043734}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -14.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940069413}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530547050
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1215,7 @@ GameObject:
   - component: {fileID: 882733628}
   - component: {fileID: 882733627}
   - component: {fileID: 8399340183173653307}
+  - component: {fileID: 1147981963}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (1)
   m_TagString: Untagged
@@ -1264,6 +1309,83 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1147981963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882733625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 1433139234}
+--- !u!1 &940069412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940069413}
+  m_Layer: 0
+  m_Name: NewRoomSpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &940069413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940069412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 511043735}
+  - {fileID: 1433139234}
+  - {fileID: 954593628}
+  - {fileID: 1263808752}
+  m_Father: {fileID: 1810386030}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &954593627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954593628}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954593628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954593627}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: -14.800003, y: 0, z: 5.0800014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940069413}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &972062018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,6 +1583,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 1778253b830e1614e80b7ee9619c2933, type: 3}
+--- !u!1 &1263808751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263808752}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1263808752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263808751}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 19.800003, y: 0, z: -0.07999897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940069413}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1400787207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1705,36 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 8153ff91c8b7c6c4ca02b27c13ec43df, type: 3}
+--- !u!1 &1433139233
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1433139234}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1433139234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433139233}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 5, y: 0, z: 19.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 940069413}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693999876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1748,7 @@ GameObject:
   - component: {fileID: 1693999879}
   - component: {fileID: 1693999878}
   - component: {fileID: 8567346195232637448}
+  - component: {fileID: 396897527}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (2)
   m_TagString: Untagged
@@ -1659,6 +1842,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &396897527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693999876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 954593628}
 --- !u!1 &1769304165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,6 +1868,7 @@ GameObject:
   - component: {fileID: 1769304168}
   - component: {fileID: 1769304167}
   - component: {fileID: 9069848751769060569}
+  - component: {fileID: 1594362256}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (3)
   m_TagString: Untagged
@@ -1765,6 +1962,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1594362256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769304165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 1263808752}
 --- !u!1 &1777610957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +2130,7 @@ Transform:
   - {fileID: 1929406602}
   - {fileID: 9156502970727096816}
   - {fileID: 4979236934100587348}
+  - {fileID: 940069413}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2222,10 +2433,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 141482, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneTable_01
-      objectReference: {fileID: 0}
     - target: {fileID: 405634, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.959999
@@ -2282,6 +2489,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 141482, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneTable_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 16b5a7abcb1d9cb438b51c495e76eb52, type: 3}
 --- !u!1 &14596438 stripped
@@ -2303,10 +2514,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 179858, guid: 066c29b35f638204aaa1355e15ed2c4f, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Rug_03
-      objectReference: {fileID: 0}
     - target: {fileID: 496054, guid: 066c29b35f638204aaa1355e15ed2c4f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.672966
@@ -2351,6 +2558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 179858, guid: 066c29b35f638204aaa1355e15ed2c4f, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Rug_03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 066c29b35f638204aaa1355e15ed2c4f, type: 3}
 --- !u!4 &190720372 stripped
@@ -2366,10 +2577,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneChair_01 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.3269653
@@ -2414,6 +2621,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneChair_01 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e043463d920714684df4f66731eaa4, type: 3}
 --- !u!4 &245998465 stripped
@@ -2429,10 +2640,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 147182, guid: 38acd8f33333a454aa8e10b6297ab6c8, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneTable_Broken_01
-      objectReference: {fileID: 0}
     - target: {fileID: 492730, guid: 38acd8f33333a454aa8e10b6297ab6c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8700027
@@ -2489,6 +2696,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 147182, guid: 38acd8f33333a454aa8e10b6297ab6c8, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneTable_Broken_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38acd8f33333a454aa8e10b6297ab6c8, type: 3}
 --- !u!1 &399747881 stripped
@@ -2510,10 +2721,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 179310, guid: e657c22f66e1a6a4ba85153eed847119, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Fireplace_01
-      objectReference: {fileID: 0}
     - target: {fileID: 492122, guid: e657c22f66e1a6a4ba85153eed847119, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.4300003
@@ -2570,6 +2777,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 179310, guid: e657c22f66e1a6a4ba85153eed847119, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Fireplace_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e657c22f66e1a6a4ba85153eed847119, type: 3}
 --- !u!4 &813950413 stripped
@@ -2591,10 +2802,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 159436, guid: 8bb2d7195ef956c439f151bb60ae257a, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Crate_Wood_05
-      objectReference: {fileID: 0}
     - target: {fileID: 469718, guid: 8bb2d7195ef956c439f151bb60ae257a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.4099998
@@ -2639,6 +2846,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 159436, guid: 8bb2d7195ef956c439f151bb60ae257a, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Crate_Wood_05
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8bb2d7195ef956c439f151bb60ae257a, type: 3}
 --- !u!1 &1026193011 stripped
@@ -2660,10 +2871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneChair_01
-      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.540001
@@ -2716,6 +2923,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5000002
       objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneChair_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e043463d920714684df4f66731eaa4, type: 3}
 --- !u!4 &1242150107 stripped
@@ -2731,10 +2942,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneChair_01 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.9349747
@@ -2787,6 +2994,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.500001
       objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneChair_01 (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e043463d920714684df4f66731eaa4, type: 3}
 --- !u!4 &1356032581 stripped
@@ -2802,10 +3013,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 192992, guid: 5ca5ea1058c3f1446bc9ae4b2d19d453, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Crate_Wood_04
-      objectReference: {fileID: 0}
     - target: {fileID: 400100, guid: 5ca5ea1058c3f1446bc9ae4b2d19d453, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.54
@@ -2850,6 +3057,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 192992, guid: 5ca5ea1058c3f1446bc9ae4b2d19d453, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Crate_Wood_04
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ca5ea1058c3f1446bc9ae4b2d19d453, type: 3}
 --- !u!1 &1817166505 stripped
@@ -2871,10 +3082,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneChair_01 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.949997
@@ -2927,6 +3134,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.4999999
       objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneChair_01 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e043463d920714684df4f66731eaa4, type: 3}
 --- !u!4 &1929406602 stripped
@@ -2942,10 +3153,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 127254, guid: b1a171888b1be0e4db1a5638cad8f997, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_Rug_02
-      objectReference: {fileID: 0}
     - target: {fileID: 430460, guid: b1a171888b1be0e4db1a5638cad8f997, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6399994
@@ -2990,6 +3197,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 127254, guid: b1a171888b1be0e4db1a5638cad8f997, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_Rug_02
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1a171888b1be0e4db1a5638cad8f997, type: 3}
 --- !u!4 &2015720103 stripped
@@ -3005,10 +3216,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810386030}
     m_Modifications:
-    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
-      propertyPath: m_Name
-      value: SM_Prop_StoneChair_01 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.1900024
@@ -3060,6 +3267,10 @@ PrefabInstance:
     - target: {fileID: 456030, guid: 48e043463d920714684df4f66731eaa4, type: 3}
       propertyPath: m_LocalScale.y
       value: 1.5000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 108724, guid: 48e043463d920714684df4f66731eaa4, type: 3}
+      propertyPath: m_Name
+      value: SM_Prop_StoneChair_01 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e043463d920714684df4f66731eaa4, type: 3}

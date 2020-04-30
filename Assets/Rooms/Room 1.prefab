@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2328324}
   - component: {fileID: 4371775951992212969}
   - component: {fileID: 7128154469106123776}
+  - component: {fileID: 1520243613}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (3)
   m_TagString: Untagged
@@ -106,6 +107,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1520243613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 1296341249175673906}
 --- !u!1 &176122
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +360,7 @@ Transform:
   - {fileID: 8721979733116825682}
   - {fileID: 1377059761196136863}
   - {fileID: 977079666432573544}
+  - {fileID: 9111020886371732813}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -443,6 +458,7 @@ GameObject:
   - component: {fileID: 293131934}
   - component: {fileID: 293131933}
   - component: {fileID: 1129248506708105244}
+  - component: {fileID: 1462060536}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (1)
   m_TagString: Untagged
@@ -536,6 +552,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1462060536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293131931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 6697846721908836099}
 --- !u!1 &685892138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,6 +1498,8 @@ GameObject:
   - component: {fileID: 1205308211}
   - component: {fileID: 1205308210}
   - component: {fileID: 7630299809334042661}
+  - component: {fileID: 1184247910}
+  - component: {fileID: 1184247905}
   m_Layer: 0
   m_Name: SM_Env_Wall_07
   m_TagString: Untagged
@@ -1562,6 +1593,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1184247910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205308208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 0}
+--- !u!114 &1184247905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205308208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 2451600844638160018}
 --- !u!1 &1205309723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,6 +1632,7 @@ GameObject:
   - component: {fileID: 1205309726}
   - component: {fileID: 1205309725}
   - component: {fileID: 7132714112009338563}
+  - component: {fileID: 1924069011}
   m_Layer: 0
   m_Name: SM_Env_Wall_07 (2)
   m_TagString: Untagged
@@ -1668,6 +1726,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.1785235, y: 5.133383, z: -2.23}
   m_Center: {x: -2.4896636, y: 2.5666914, z: 0.26}
+--- !u!114 &1924069011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205309723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d946fac00b06a847b2d0dc0a1ad0caf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _roomSpawnPoint: {fileID: 2932141259899689210}
 --- !u!1 &1220609359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,6 +2259,36 @@ Transform:
   m_Father: {fileID: 233243198}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225424608770056355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2932141259899689210}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2932141259899689210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225424608770056355}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: -14.800003, y: 0, z: 5.0800014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9111020886371732813}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369974412486949194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,6 +2318,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 233243198}
   m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2180450310953399946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2451600844638160018}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2451600844638160018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2180450310953399946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -14.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9111020886371732813}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2980396044196851182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6697846721908836099}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6697846721908836099
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980396044196851182}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 5, y: 0, z: 19.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9111020886371732813}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5207977494375654661
 GameObject:
@@ -2248,6 +2409,36 @@ Transform:
   m_Father: {fileID: 233243198}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5666653875480545570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1296341249175673906}
+  m_Layer: 0
+  m_Name: RoomSpawnPoint - Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296341249175673906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5666653875480545570}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 19.800003, y: 0, z: -0.07999897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 9111020886371732813}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7672279823747742942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,4 +2468,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 233243198}
   m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8770421844460020704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9111020886371732813}
+  m_Layer: 0
+  m_Name: NewRoomSpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9111020886371732813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8770421844460020704}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2451600844638160018}
+  - {fileID: 6697846721908836099}
+  - {fileID: 2932141259899689210}
+  - {fileID: 1296341249175673906}
+  m_Father: {fileID: 233243198}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
